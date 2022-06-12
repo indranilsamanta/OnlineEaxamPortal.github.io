@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Exam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="exam">
+            <div class="exam_header">
+                <div class="student_name"> 
+                   <h4> Welcome! <span class="name"></span></h4>
+                </div>
+                <div class="time">
+                    <span class="timer">00:00</span>
+                </div>
+
+            </div>
+            <div class="exam_body">
+               <div id="question">
+               
+               </div>
+                <button class="next" onclick="next()">Next</button>
+                
+                <div class="qcount"><span class="tqcount"> </span></div>
+
+            </div>
+        </div>
+    </div>
+    
+      
+    <script src="exam.js"></script>
+  <script src="userinformation.js"></script>
+    <script src="time.js"></script>
+   
+</body>
+</html>
